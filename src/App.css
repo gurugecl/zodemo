@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fea {
+  border-style: solid;
+  border-width: 0px 3px 0px 3px;
+  height: 510px;
+
+}
+
+.lis {
+  height: 510px;
+}
+
+.doc {
+  border-style: solid;
+  border-width: 0px 0px 0px 3px;
+  height: 510px;
+}
+
+.lin {
+  border-style: solid;
+  border-width: 3px 0px 0px 3px;
+}
+
+.container {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+}
+
+.tab {
+  /*padding: 0px;*/
+}
+
+.three {
+  border-style: solid;
+  border-width: 3px;
+  padding: 0px !important;
+}
+
+.navbar {
+  margin: 0px !important;
+}
+
+h3 {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ff6600;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 27px;
+  margin-left: 10px !important;
+}
+
+.navbar-inverse {
+  border-radius: 0px;
+}
